@@ -1,16 +1,9 @@
 # ADF4351
-Universal driver for ADF4351
+Fork of Universal driver for ADF4351 to be controlled using an arduino!
+### The ADF4351 board is rated for 3.3V!
+### Make sure to add current divider between arduino digital pins and ADF4351
 
-
-Use STM32F072 discovery or similar board. Connect ADF4351:
-
-+Vin...+5V, 
-CLK...PA5, 
-DATA...PB5, 
-LE...PB3, 
-CE...NC (Board has pullup), 
-GND...GND 
-
-
-Schematic and PCB for prototyping is here:
-http://e.pavlin.si/2016/01/15/pll-adf4351-prototyping-single-sided-board/
+|Arduino|ADF4351|
+|---|---|
+|3.3V|3V3|
+|
